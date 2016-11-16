@@ -121,6 +121,7 @@ public class ResumeStorage implements Storage {
                             return true;
                         storage[i] = new Resume(newResume);
                         System.out.println("Резюме " + newResume + " успешно изменено!");
+
                         break;
                 }
                 return true;
